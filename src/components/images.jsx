@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import pixabayContext from '../context/pixabayContext'
+import pixabayContext from '../context/PixabayContext'
 
 const Images = () => {
     const data = useContext(pixabayContext);
