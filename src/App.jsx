@@ -1,6 +1,6 @@
-import React from 'react'
-import Images from './components/images'
-import Navbar from './components/navbar'
+import React from 'react';
+import Images from './components/images';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Navbar />
       <Images />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
